@@ -1,0 +1,6 @@
+apiVersion: v2
+name: sync-qcloud-cdn-cert
+description: Sync k8s TLS secret to tencent cloud cdn https cert
+type: application
+version: 0.1.0
+appVersion: 0.1.0
