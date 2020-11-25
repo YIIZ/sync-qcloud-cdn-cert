@@ -1,16 +1,9 @@
 image:
   repository: yiiz/sync-qcloud-cdn-cert
-  pullPolicy: IfNotPresent
-  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-
-resources:
-  limits:
-    cpu: 50m
-    memory: 128Mi
 
 secrets: {}
 #   SecretKey:
